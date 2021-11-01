@@ -7,7 +7,7 @@ import sys
 try:
     os.system('cls')
 except:
-    print('clear')
+    os.system('clear')
 
 geolocator = Nominatim(user_agent="bueroficial")
 
